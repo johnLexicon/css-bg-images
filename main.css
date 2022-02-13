@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --image-height: 384px;
+}
+
+.repeat-default {
+  background-image: url(/images/flowers.jpeg);
+}
+
+.repeat-x {
+  background-image: url(/images/flowers.jpeg);
+  background-repeat: repeat-x;
+}
+
+.repeat-y {
+  background-image: url(/images/flowers.jpeg);
+  background-repeat: repeat-y;
+}
+
+.position-bgimages {
+  height: 100vh;
+  background: url(/images/flowers_cartoon.jpeg) top left,
+    url(/images/flowers_mosaik.jpeg) top right,
+    url(/images/flowers_photo.jpeg) bottom left,
+    url(/images/flowers_vortex.jpeg) bottom right;
+  background-repeat: no-repeat;
+}
